@@ -9,6 +9,8 @@
     <div class="product__button-container">
       <a
         class="snipcart-add-item buy-button"
+	target="_blank"
+	href="https://ig.me/m/foreverfinds.ae"
         data-item-id="{{ .name | urlize }}"
         data-item-name="{{ .name }}"
         data-item-price="{{ (int .price) | lang.NumFmt 2 }}"
@@ -26,7 +28,7 @@
         data-item-custom1-options="{{ $colors }}"
         {{ end }}
       >
-        Add to cart
+        Place Order
       </a>
     </div>
   </div>
